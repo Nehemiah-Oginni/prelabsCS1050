@@ -29,5 +29,22 @@ int main (void)
 }
 void printStudentInfo(Student student)
 {
+    printf("Student info:\n
+            First Name: %s\n
+            Last Name: %s\n
+            Year: ", Student.firstname[i], Student.lastname[i]);
+            switch(Student.year[i])
+            {
+                case freshman:
+                printf("Freshman");
+                case sophmore:
+                printf("Sophmore");
+                case junior:
+                printf("Junior");
+                case senior:
+                printf("Senior");
+            }
+    printf("\n");
+    printf("GPA: %.2f", Student.gpa[i])
     
 }
