@@ -125,10 +125,10 @@ void findStudentWithMaxGPA(Student students[], int count)
 }
 void findStudentsByName(Student *students, int count, const char *name)
 {
-    printf("Find students with first name 'Vivian':\n");
+    printf("Find students with first name: '%s' \n", name);
     for(int i=0; i<count; i++)
     {
-        if(!strcmp(students[i].firstname, "Vivian"))
+        if(!strcmp(students[i].firstname, name))
         {
             printStudentInfo(students[i]);
         }
